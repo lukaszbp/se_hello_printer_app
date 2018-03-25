@@ -6,6 +6,6 @@ install:
 script:
   - make test
 services:
-    -docker
+    - docker
 after_success:
   - make docker_build
